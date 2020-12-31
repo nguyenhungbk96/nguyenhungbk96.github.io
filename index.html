@@ -93,11 +93,12 @@
             <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
             <a href="#skills"><i class="title-icon fa fa-sliders"></i>Skills</a>
             <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Experience</a>
+            <a href="#projects"><i class="title-icon fa fa-suitcase"></i>Projects</a>
             <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Portfolios</a>
             <a href="#interest"><i class="title-icon fa fa-heart"></i>Interest</a>
-            <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a>
-            <a href="#pricing-table"><i class="title-icon fa fa-money"></i>Pricing</a>
-            <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a>
+            <!-- <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a> -->
+            <!-- <a href="#pricing-table"><i class="title-icon fa fa-money"></i>Pricing</a> -->
+            <!-- <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a> -->
             <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
         </div>
 
@@ -160,13 +161,13 @@
                         <div class="infos">
                             <ul class="profile-list">
                                 <li class="clearfix">
+                                    <span class="title"><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
+                                    <span class="content">20-12-1996</span>
+                                </li>
+                                <li class="clearfix">
                                     <span class="title"><i class="material-icons">email</i></span>
                                     <span class="content">nguyenhungbk96@gmail.com</span>
                                 </li>
-                                <!-- <li class="clearfix">
-                                    <span class="title"><i class="material-icons">language</i></span>
-                                    <span class="content">yourpersonalwebsite.com</span>
-                                </li> -->
                                 <li class="clearfix">
                                     <span class="title"><i class="fa fa-skype" aria-hidden="true"></i></span>
                                     <span class="content">0973610926</span>
@@ -506,7 +507,7 @@
 <!--==========================================
                    PROJECT
 ===========================================-->
-<div id="about" class="section">
+<div id="projects" class="section">
     <div class="section-title">
         <h4 class="text-uppercase text-center"><img src="public/images/layers.png" alt="demo">PROJECTS</h4>
     </div>
@@ -514,13 +515,14 @@
         <div class="row">
             <div class="col-md-12">
                 <!-- DETAILS -->
-                <div id="about-card" class="card">
+                <div class="card">
                     <div class="card-content">
-                        <h5 class="text text-uppercase"><a href="https://chozoi.vn/"><b>chozoi.vn</b></a></h5>
-                        <span><b>Customer</b>: MCG Corp</span><br>
+                        <h5 class="text text-uppercase"><a href="#"><b>telecare</b></a></h5>
+                        <span><b>Customer</b>: NMS(Viettel business solutions (onsite))</span><br>
                         <span><b>Description</b>: E-commerce website</span><br>
                         <span><b>Team size</b>: 8</span><br>
                         <span><b>My position</b>: Backend Java develop</span><br>
+
                         <span><b>My responsibilities</b>: </span><br>
                         <span>&nbsp&nbsp&nbsp&nbsp&nbsp <b>- Order module</b></span><br>
                         <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Database structure for module order.</span><br>
@@ -539,6 +541,67 @@
 
                         <span>&nbsp&nbsp&nbsp&nbsp&nbsp <b>- Module Auction</b></span><br>
                         <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Handling updated real-time auction results using socket.io.</span><br>
+
+                        <span><b>Technologies used</b>: </span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Java Spring Boot.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Microservice, restfull api.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Message queue (Kafka).</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Database (postgresql, mongodb).</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Cache (redis).</span><br>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h5 class="text text-uppercase"><a href="https://chozoi.vn/"><b>chozoi.vn</b></a></h5>
+                        <span><b>Customer</b>: MCG Corp</span><br>
+                        <span><b>Description</b>: E-commerce website</span><br>
+                        <span><b>Team size</b>: 8</span><br>
+                        <span><b>My position</b>: Backend Java develop</span><br>
+
+                        <span><b>My responsibilities</b>: </span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp <b>- Order module</b></span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Database structure for module order.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Build all API module order.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Features in the module: shopping cart fee, shipping fee, apply couppon, change state order, log keeping for the above tasks.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Integrated payment partners (Ngân Lượng, Vnpay, MoMo).</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Integrated shipping partners (ViettelPost, Giao hàng nhanh, Giao hàng tiết kiệm).</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Process calback from partner.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Send mail, notification to user when order state change.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Sync orders to mongodb.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Cache.</span><br>
+
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp <b>- Module shop</b></span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Build API register shop official store.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Build API config official store template.</span><br>
+
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp <b>- Module Auction</b></span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Handling updated real-time auction results using socket.io.</span><br>
+
+                        <span><b>Technologies used</b>: </span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Java Spring Boot.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Microservice, restfull api.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Message queue (Kafka).</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Database (postgresql, mongodb).</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Cache (redis).</span><br>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h5 class="text text-uppercase"><a href="#"><b>outsource</b></a></h5>
+                        <span><b>Customer</b>: Beau Acency</span><br>
+                        <span><b>Description</b>: Developed website for individual and corporate customers</span><br>
+                        <span><b>Team size</b>: 3</span><br>
+                        <span><b>My position</b>: Fullstack develop</span><br>
+
+                        <span><b>My responsibilities</b>: </span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp <b>- Getaco</b></span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + User permission.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Form builder.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Send mail, noti to admin when has new customer submit form.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Up the data structure.</span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + Build functions as requirement.</span><br>
+                        <span><b>Technologies used</b>: </span><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp + PHP(Laravel).</span><br>
                     </div>
                 </div>
             </div>
