@@ -5319,8 +5319,8 @@ ul.timeline > li:before {
   height: 20px;
   z-index: 400;
 }
-.company-name{
+.company-name, .work-time{
   color: #378C3F;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 18px;
 }
