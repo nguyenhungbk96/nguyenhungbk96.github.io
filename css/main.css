@@ -5193,12 +5193,12 @@ Created using IcoMoon - icomoon.io
   margin-bottom: 20px;
   font-size: 18px; }
   .progress-container .progress-bar {
-    height: 5px;
+    height: 2px;
     transform: scaleX(0);
     transition: transform 2s ease-in-out;
     transform-origin: 0% 0%; }
   .progress-container .progress {
-    height: 5px;
+    height: 2px;
     font-size: 18px; }
   .progress-container .aos-animate {
     transform: scaleX(1); }
@@ -5284,3 +5284,43 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+.pt-0{
+  padding-top: 0;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #378C3F;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+.company-name{
+  color: #378C3F;
+  font-weight: bold;
+  font-size: 18px;
+}
