@@ -5324,3 +5324,13 @@ ul.timeline > li:before {
   /*font-weight: bold;*/
   font-size: 18px;
 }
+.project{
+  margin-top: 20px;
+  font-weight: bold;
+}
+.project-detail{
+  margin-bottom: 10px;
+}
+.my-task{
+  padding-left: 30px;
+}
