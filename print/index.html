@@ -7,7 +7,7 @@
     <title>Nguyễn Duy Hùng</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+<!--    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">-->
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/main.css?ver=1.1.1" rel="stylesheet">
 
@@ -40,6 +40,27 @@
         }
         .footer{
             display: none;
+        }
+        .container{
+            width: 100% !important;
+            max-width: unset;
+            min-width: unset;
+        }
+        @media print {
+            .question-box {
+                page-break-inside: avoid;
+            }
+        }
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                width: 100%;
+            }
+        }
+
+        @page {
+            size: a4;
+            margin: 20px;
         }
     </style>
 </head>
