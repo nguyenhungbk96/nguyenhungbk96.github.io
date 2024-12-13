@@ -47,20 +47,23 @@
             min-width: unset;
         }
         @media print {
-            .question-box {
-                page-break-inside: avoid;
-            }
+            /*.question-box {*/
+            /*    page-break-inside: avoid;*/
+            /*}*/
         }
         @media print {
             body {
                 -webkit-print-color-adjust: exact;
-                width: 100%;
+                /*width: 100%;*/
             }
         }
 
         @page {
             size: a4;
             margin: 20px;
+        }
+        .h4 {
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -179,15 +182,15 @@
                         <div class="col-sm-2"><strong class="text-uppercase">Niên khoá:</strong></div>
                         <div class="col-sm-8">2014-2018</div>
                     </div>
-                    <div class="row mt-3">
+                    <div class="row">
                         <div class="col-sm-2"><strong class="text-uppercase">Khoa:</strong></div>
                         <div class="col-sm-8">Công nghệ thông tin</div>
                     </div>
-                    <div class="row mt-3">
+                    <div class="row">
                         <div class="col-sm-2"><strong class="text-uppercase">Nghành:</strong></div>
                         <div class="col-sm-8">Kỹ thuật phần mềm</div>
                     </div>
-                    <div class="row mt-3">
+                    <div class="row">
                         <div class="col-sm-12">
                             Tôi đã hoàn thành chương trình đào tạo và tốt nghiệp tại ngôi trường này.
                         </div>
@@ -196,6 +199,7 @@
             </div>
         </div>
     </div>
+    <div style="page-break-before:always">&nbsp;</div>
     <div class="section pt-0" id="skill">
         <div class="container">
             <div class="h4 text-center title">Kỹ năng</div>
